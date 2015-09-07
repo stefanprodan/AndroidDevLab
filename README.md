@@ -13,3 +13,9 @@ GitLab Certificate gen:
 ```bash
 sudo openssl req -x509 -nodes -days 1800 -newkey rsa:2048 -keyout "/etc/gitlab/ssl/git.lab.key" -out "/etc/gitlab/ssl/git.lab.crt"
 ```
+
+Server MAC
+```
+External: 00-1E-67-CA-08-88
+Internal: 00-1E-67-CA-08-89
+```
